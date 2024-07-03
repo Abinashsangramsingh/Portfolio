@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-xxx" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.9.0/font/bootstrap-icons.min.css" rel="stylesheet">
+</head>
+<body>
+    <div id="header">
+    <div class="container">
+      <nav>
+        <img src="./img/abinas.png" class="logo">
+        <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#Services">Services</a></li>
+            <li><a href="#portfolio">portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <span class="bi bi-x" onclick="closemenu()"></span>
+            
+        </ul>
+        <span class="bi bi-list" onclick="openmenu()"></span>
+      </nav>  
+<div class="header-text">
+    <p>Java Full Stack Devloper</p>
+    <h1>Hi, I'm <span>Abinash</span><br> Sangramsing From India</h1>
+</div>
+    </div>
+    </div>
+    <!--------------------------about-------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./img/Abinash.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p> Hello, my name is Abinash Sangramsingh, and I'm a full stack developer. I have a strong command over both front-end and back-end technologies, allowing me to build complete and scalable applications.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Java</span><br>Fullstack Devloper</li>
+                            <li><span>Java</span><br>Frontend Devloper</li>
+                            <li><span>Java</span><br>Backend Devloper</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span></span><br>Fresher</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2016-18</span><br>Under Graduation At Jupiter +2 Science College ,Bhubaneswar</li>
+                            <li><span>2018-21</span><br>B.Sc At Banki Autonomous College, Banki,Cuttack</li>
+                            <li><span>2021-23</span><br>MCA At KIIT Univercity ,Odisha</li>
+                            <li><span>2023-24</span><br>Continue My Java Fullstack At NareshIt, Hyderabad</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!------------------------------------Services----------------------->
+<div id="Services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <span class="bi bi-apple icon"></span>
+                <h2>Java FullStack Devloper</h2>
+                
+            <p>As a passionate newcomer to Java Full Stack Development, I bring enthusiasm for building scalable applications. Proficient in Java, Spring Boot, and eager to learn front-end technologies like Angular/React. Committed to delivering efficient, user-centric solutions while continuously expanding my skills.</p>
+            <a href="#">Learn More</a>
+            </div>
+            <div>
+                <span class="bi bi-apple icon"></span>
+                <h2>Frontend Devloper</h2>
+                
+            <p>Abinash Sangramsingh - Backend Developer
+
+                Enthusiastic about backend development with foundational skills in  Java,Spring,Spring Boot, and Microservices. Familiarity with Oracle databases. Committed to learning and contributing to efficient, scalable backend solutions for enterprise applications.
+                
+                </p>
+                <a href="#">Learn More</a>
+               
+            </div>
+            <div>
+                <span class="bi bi-apple icon"></span>
+                <h2>Backend Devloper</h2>
+                <p> Abinash Sangramsingh - Aspiring Backend Developer
+                    Aspiring backend developer proficient in Spring, Java, Spring Boot, and Microservices architecture, with a solid understanding of Oracle databases. Dedicated to mastering backend development principles, optimizing performance, and delivering scalable solutions for enterprise applications.</p>
+                    <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-----------------portfolio---------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="./img/Image1.jpg" alt="">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>The app connects you yo the talented people around the world.Download it from playstore. </p>
+                    <a href="#"><span class="bi bi-key"></span></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="./img/Image2.jpg" alt="">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>The app connects you yo the talented people around the world.Download it from playstore.</p>
+                    <a href="#"><span class="bi bi-key"></span></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="../Image3.jpg" alt="">
+                <div class="layer">
+                    <h3>Online Shopping</h3>
+                    <p>The app connects you yo the talented people around the world.Download it from playstore.</p>
+                    <a href="#"><span class="bi bi-key"></span></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+<!----------------------contact--------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><span class="bi bi-envelope"></span> sangramsinghabinash@gmail.com</p>
+                <p><span class="bi bi-telephone"></span>6371516177</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/abinash.sangramsingh"><span class="bi bi-facebook"></span></a>
+                    <a href="https://www.linkedin.com/in/abinash-sangramsingh-12b674246"><span class="bi bi-linkedin"></span></a>
+                    <a href="https://www.instagram.com/invites/contact/?igsh=av2mgoq44tyz&utm_content=4cw8yct"><span class="bi bi-instagram"></span></a>
+                </div>
+                <a href="./img/abinash sangramsingh.pdf.pdf" download class="btn btn2">Download CV</a>
+            </div>
+
+            <div class="contact-right">
+                <form action="">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Mail" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright Abinash  <span class="bi bi-heart"></span> Made by Mine</p>
+    </div>
+</div>
+
+
+
+<script>
+        var tablinks=document.getElementsByClassName('tab-links');
+        var tabcontents=document.getElementsByClassName('tab-contents');
+        function opentab(tabname){
+         for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+
+         }
+         for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+         } 
+         event.currentTarget.classList.add("active-link");
+         document.getElementById(tabname).classList.add("active-tab");
+
+        }
+    </script>
+
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
